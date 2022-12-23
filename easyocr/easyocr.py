@@ -23,7 +23,7 @@ if sys.version_info[0] == 2:
     from pathlib2 import Path
 else:
     from urllib.request import urlretrieve
-    from pathlib import Path
+    from pathlib import Path    
 
 LOGGER = getLogger(__name__)
 
